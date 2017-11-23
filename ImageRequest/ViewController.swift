@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //let imagePath = "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg"
-        let imagePath = "http://www.spectra-physics.com/assets/components/phpthumbof/cache/twitter-2016-11-nature_spitfire_article.72848845b1fe301dafc37322de44c90f.jpg"
+        let imagePath = "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg"
+        // let imagePath = "http://www.spectra-physics.com/assets/components/phpthumbof/cache/twitter-2016-11-nature_spitfire_article.72848845b1fe301dafc37322de44c90f.jpg"
         let imageURL = URL(string: imagePath)!
         
         // use "URLSession.shared" to access the shared URLSession
